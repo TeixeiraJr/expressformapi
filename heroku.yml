@@ -1,0 +1,7 @@
+build:
+  docker:
+    web: backend/Dockerfile
+    worker: frontend/userform/Dockerfile
+run:
+  web: node src/index.js
+  worker: npm run serve
